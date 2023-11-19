@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(13, 13, 82);
+    color: white;
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(13, 13, 82);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: rgb(243, 126, 126);
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0px;
+}
+
+.leftsection {
+    font-size: 2rem;
+    padding: 50px;
+}
+
+.aqua {
+    color: aqua;
+}
+
+.rightsection img {
+    width: 80%;
+    padding: 10%;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(103, 103, 146);
+    height: 0.5px;
+    margin: 40px 80px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondsection h1 {
+    font-size: 40px;
+    width: 80vw;
+    margin: auto;
+}
+
+.pro {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+}
+
+.pro img{
+    padding: 10px;
+    width:300px ;
+    height: 100px;
+}
+.pro h1{
+    color: black;
+}
